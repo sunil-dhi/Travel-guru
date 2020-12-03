@@ -66,3 +66,45 @@ nav ul li a, nav ul li a {
     text-align: left;
     border-radius: 10px;
 }
+.plan h2{
+    background: white;
+    width: 200px;
+    margin-left: 40%;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+.plan .plann input{
+    font-size: 15px;
+    width: 156px;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 20px 10px;
+    background: #f1f1f1;
+    border: none;
+    outline: none;
+}
+.top-destination{
+    width: 90%;
+    height: 150px;
+    background: #fafafa;
+    margin: auto;
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+    padding: 20px;
+}
+.top-destination .top3{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.top-destination .top3 img{
+    width: 50%;
+    height:550px;
+    margin: 50px;
+    align-self: center;
+    height: 100px;
+}
+.top-destination .top3 div{
+    align-self: center;
+}
