@@ -26,4 +26,13 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+nav h1{
+    color: white;
+    font-size: 50px;
+    width: 20%;
+    font-weight: bold;
+}
+nav ul{
+    width: 60%;
+    list-style: none;
 }
