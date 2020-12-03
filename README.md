@@ -1,1 +1,1 @@
-go to https://sunil-dhi.github.io/Travel-guru to view my website.
+go to https://sunil-dhi.github.io/travel-guru to view my website.
