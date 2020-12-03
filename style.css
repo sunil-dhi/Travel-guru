@@ -108,3 +108,76 @@ nav ul li a, nav ul li a {
 .top-destination .top3 div{
     align-self: center;
 }
+.content{
+    width: 96%;
+    height: 600px;
+    /*background: red;*/
+    margin: 100px auto;
+}
+.content .upper{
+    width: 100%;
+    height: 60%;
+    justify-content: space-around;
+    display: flex;
+}
+.content .upper div{
+    width: 25%;
+    
+}
+.content .upper div img{
+    width: 100%;
+    height: 200px;
+}
+.bann{
+    width: 90%;
+    height: 520px;
+    background: #fafafa;
+    margin: 50px auto;
+    display: flex;
+    justify-content: left;
+}
+.bann video{
+    width: 70%;
+    height: 520px;
+
+}
+.bann div{
+    width: 30%;
+    height: 50%;
+    letter-spacing: px;
+    text-align: justify;
+    padding: 2%;
+    align-self: center;
+}
+.last{
+    width: 90%;
+    height: 900px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.last .left{
+    width: 60%;
+    height: 100%;
+    height: auto;
+    height: 100%;
+}
+.last img{
+    width: 40%;
+    height: 90%;
+    
+}
+.last .left .last3{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+.last .left .last3 img{
+    width: 40%;
+    margin: 5%;
+    height: 200px;
+}
+.last .left .last3 div{
+    width: 40%;
+    margin: 5%;
+}
