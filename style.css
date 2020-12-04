@@ -11,7 +11,7 @@ section
   margin: 0px auto;
   position: relative;
 }
-.video{
+.round{
     position: absolute;
     top: 0;
     left: 0;
@@ -51,7 +51,7 @@ nav ul li a, nav ul li a {
 .plan{
     width: 80%;
     height: 250px;
-    padding: 50px;
+    padding: 40px;
     /*position: relative;
     top: 300px;*/
     background: #ffffff40;
@@ -69,7 +69,7 @@ nav ul li a, nav ul li a {
 .plan h2{
     background: white;
     width: 200px;
-    margin-left: 40%;
+    margin-left: 35%;
     padding: 20px;
     border-radius: 10px 10px 0px 0px;
 }
