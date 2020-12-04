@@ -25,6 +25,7 @@ nav {
     margin:2px auto;
     display: flex;
     justify-content: space-around;
+    background-color:black;
 }
 nav h1{
     color: white;
