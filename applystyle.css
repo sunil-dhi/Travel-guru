@@ -1,18 +1,96 @@
-header{
-	text-align: center;
-	color: white;
-	font-family:'poppins',sans-serif;
-}
+
+
+
 .contact{
 	 position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: -1;
+	z-index: -1;
+	height: 570px;
 }
-body{
-	background-image: url('Travel-Wallpaper-Background.jpg');
-	background-size: cover;
+.top{
+    background: whitesmoke;
+    width:100%;
+    margin-top: 480px; 
+}
+.top img{
+    border: 2px solid rgb(196, 109, 109);
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 200px;
+    
+}
+nav {
+    width: 96%;
+    height: 70px;
+    font-family: sans-serif;
+    margin:2px auto;
+    display: flex;
+    justify-content: space-around;
+}
+nav h1{
+    color: white;
+    font-size: 50px;
+    width: 40%;
+    font-weight: bold;
+}
+nav ul{
+    width: 60%;
+    list-style: none;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    margin: 10px 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul li a, nav ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+.box
+{
+    width: 100%;
+    height: 120px;
+    padding: 200px;
+    /*position: relative;
+    top: 300px;*/
+
+    text-align: center;
+    margin: 10px auto;
+    margin-top: 10px;
+}
+.box h1
+{
+    
+    width: 400px;
+    margin-left: 18%;
+    color: rgb(167, 114, 49);
+    padding: 17px;
+    font-size: 50px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.box h2
+{
+    
+    width: 70%;
+    
+    color: rgb(58, 52, 44);
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 10px 10px 0px 0px;
+}
+.box p{
+    color: tomato;
+    width: 70%;
+    padding: 13px;
 }
 #form h2, h3{
 	text-align: center;
@@ -101,5 +179,12 @@ nav ul li{
 nav ul li a, nav ul li a .fa{
     text-decoration: none;
     color:white;
+}
+footer{
+    background-color:rgb(173, 156, 60);
+    padding:50px;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
 }
 
