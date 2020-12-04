@@ -1,3 +1,7 @@
+body{
+    background-color:rgb(250, 239, 202);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 *
 {
  padding: 0;
@@ -193,6 +197,20 @@ nav a:hover {
     width: 40%;
     margin: 5%;
 }
+ button{
+    background-color: rgb(245, 144, 98);
+    color:white;
+    border-radius: 20px;
+  }
+  button:hover{
+    color: rgb(99, 80, 247);
+    cursor: pointer;
+  }
+#booking{
+    background-color: rgb(75, 53, 53);
+    text-align: center;
+    color: white;
+  }
 footer{
     width: 90%;
     height: 400px;
@@ -268,5 +286,4 @@ footer .div div button{
         color: skyblue;
         font-size: 44px;
         width: 50%;
-    }
-  } 
+      }}

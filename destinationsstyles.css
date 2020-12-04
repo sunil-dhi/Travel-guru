@@ -39,16 +39,23 @@ nav .icon {
 
  /* Header Image */
 header{
-    background-image: url(./images/nadine-safari.webp);
+    background-image: url(./images/destinations-banner.jpg);
     background-position: center;
     height: 400px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     object-fit: cover;
-    /* width: 100%; */
-  
     
 }
+
+img{
+    width:100%;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgb(23, 23, 24);
+
+  }
+
  /* Centered text on header image */
 .bottom {
     position: absolute;
@@ -64,14 +71,17 @@ header{
     box-sizing: border-box;
   }
   
-  /* Create three equal columns that floats next to each other */
+    /* Create three equal columns that floats next to each other */
   .column {
     float: left;
     padding: 10px;
   }
   
-  .left, .right ,.middle{
-    width: 33%;
+  .left {
+    width: 40%;
+  }
+  .right{
+      width: 60%;
   }
   
   /* Clear floats after the columns */
@@ -87,16 +97,7 @@ header{
     padding-top: 10px;
   
   }
- 
-  img{
-    width:100%;
-    height: 300px;
-    border-radius: 15px;
-    box-shadow: 10px 10px 20px rgb(23, 23, 24);
 
-  }
-  
-/* button style */
   button{
     background-color: rgb(245, 144, 98);
     color:white;
@@ -163,7 +164,7 @@ footer .div div button{
   background: #00b5be;
 }
 
-  
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     nav h1{
