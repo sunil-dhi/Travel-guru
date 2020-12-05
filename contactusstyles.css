@@ -145,7 +145,7 @@ input[type=text], select, textarea {
   .dropdown {
     position: relative;
     display: inline-block;
-    margin-left: 30%;
+    margin-left: 32%;
   }
   
   /* Dropdown Content (Hidden by Default) */
