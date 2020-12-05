@@ -151,9 +151,13 @@ nav a:hover {
     border-radius: 2px;
     box-shadow:3px 5px gray;
 }
-.bann video{
+.bann iframe{
     width: 70%;
-    height: 520px;
+    height: 450px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 5px;
 
 }
 .bann div{
